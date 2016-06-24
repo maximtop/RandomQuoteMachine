@@ -1,0 +1,24 @@
+body {
+    background-color: #f8d9ac;
+}
+
+.quote {
+    width:500px;
+    min-height: 300px;
+    margin: 100px auto;
+    background: white;
+    border: 2px #000000 solid;
+    padding: 40px;
+}
+
+.centered {
+    margin: 200px auto;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
