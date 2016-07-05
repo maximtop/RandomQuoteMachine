@@ -1,14 +1,33 @@
 body {
-    background-color: #f8d9ac;
+    background-color: #16A085;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .quote {
-    width: 500px;
+    width: 600px;
     min-height: 300px;
     margin: 100px auto;
     background: white;
-    border: 2px #000000 solid;
-    padding: 40px;
+    padding: 50px;
+    color: #16A085;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+blockquote {
+    margin: 0 0 20px;
+    text-align: center;
+    position: relative;
+}
+
+blockquote #text {
+    margin-left: 10px;
+}
+
+cite {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .centered {
@@ -24,20 +43,24 @@ body {
 }
 
 .social {
-    padding: 0;
-    margin: 0;
-    display: block;
-    height: 50px;
-    width: 50px;
-    background-color: #f8d9ac;
-    text-align: center;
+    margin-right: 5px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #16A085;
     color: white;
-    position:relative;
-}
-.social-tw {
-
+    border-radius: 3px;
+    text-align: center;
 }
 
-.social-fb {
-
+.btn {
+    float: right;
+    background-color: #16A085;
+    color: white;
 }
+
+.footer {
+    display: inline-block;
+}
+
+
